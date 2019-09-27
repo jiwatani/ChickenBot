@@ -456,7 +456,7 @@ public class ChickenBot {
 
 					//メニュー
 					else if ((moji.contains("!メニュー")) || (moji.contains("！メニュー"))) {
-						resp.reply("!献立、!割り当てメーカー、!運勢、!掃除当番");
+						resp.reply("!献立、!割り当てメーカー、!運勢、!掃除当番、日の出アラーム(固定)");
 					}
 
 					//掃除当番
@@ -754,7 +754,7 @@ public class ChickenBot {
 					//メニュー
 
 					else if ((moji.contains("!メニュー")) || (moji.contains("！メニュー"))) {
-						resp.reply("!割り当てメーカー、!運勢、!おすすめの映画、!掃除当番、日の出アラーム(固定)");
+						resp.reply("!割り当てメーカー、!運勢、!おすすめの映画、!掃除当番");
 					}
 
 					//掃除当番
