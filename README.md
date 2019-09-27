@@ -32,6 +32,15 @@ Eclipseへのimport
 4.適宜[NEXT]を押していく    
 5."Import as general project"をチェックして、"finish" を押す    
 credentialsをセットする    
-1.プロジェクト上で、右クリック 2.Configure>Convert to Maven project 3.(これでmaven projectとしてEclipseに読み込まれます) 4.API Token for BOT をセット    
-src/main/java直下にcredentials.propertiesというファイルを作り、以下のように取得したapi tokenをセットします    
-slack.bot_api_token=xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    
+  
+1.プロジェクト上で、右クリック  
+2.Configure>Convert to Maven project  
+3.(これでmaven projectとしてEclipseに読み込まれます)  
+4.API Token for BOT をセット    
+5.src/main/java直下にcredentials.propertiesというファイルを作り、以下のように取得したapi tokenをセットします    
+slack.bot_api_token=xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+  
+1.https://mariadb.com/kb/en/library/about-mariadb-connector-j/からMariadb用のjarをダウンロード
+2.プロジェクト上で、右クリック
+3.ビルド・パス>ビルド・パスの構成>ライブラリー>外部JARの追加
+4.ダウンロードしたMariaDBの.jarを選択>適用>適用して閉じる
