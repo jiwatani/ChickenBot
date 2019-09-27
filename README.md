@@ -28,7 +28,7 @@
 Eclipseへのimport    
 1.Select File>Import>Git - Projects from Git    
 2.Clone URI    
-3.set clone URI to https://github.com/CraneIjtmw/ChickenBot.git　←コピーしてEclipseで貼り付け
+3.set clone URI to (https://github.com/CraneIjtmw/ChickenBot.git)←コピーしてEclipseで貼り付け  
 4.適宜[NEXT]を押していく    
 5."Import as general project"をチェックして、"finish" を押す    
 credentialsをセットする    
@@ -42,7 +42,7 @@ credentialsをセットする
 7.src/main/java直下にcredentials.propertiesというファイルを作り、以下のように取得したapi tokenをセットします    
 slack.bot_api_token=xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
   
-1.https://mariadb.com/kb/en/library/about-mariadb-connector-j/ からMariadb用のjarをダウンロード  
+1.(https://mariadb.com/kb/en/library/about-mariadb-connector-j/) からMariadb用のjarをダウンロード  
 2.プロジェクト上で、右クリック  
 3.ビルド・パス>ビルド・パスの構成>ライブラリー>外部JARの追加  
 4.ダウンロードしたMariaDBの.jarを選択>適用>適用して閉じる  
