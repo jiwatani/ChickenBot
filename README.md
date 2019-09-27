@@ -46,7 +46,7 @@ slack.bot_api_token=xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 2.プロジェクト上で、右クリック  
 3.ビルド・パス>ビルド・パスの構成>ライブラリー>外部JARの追加  
 4.ダウンロードしたMariaDBの.jarを選択>適用>適用して閉じる  
-5.README2.mdを参照してデータベースを作成  
+5.(https://github.com/CraneIjtmw/ChickenBot/blob/master/README2.md)を参照してデータベースを作成  
   
 1.ChickenBot/src/main/java/org/example/ChickenBot.java右クリック>実行>javaアプリケーション  
 2.SlackでBotに対してチャンネル、メンション、ダイレクトの3種類から「!メニュー」を送信  
