@@ -28,7 +28,7 @@
 Eclipseへのimport    
 1.Select File>Import>Git - Projects from Git    
 2.Clone URI    
-3.set clone URI to https://github.com/crane-team09/New-Gorilla-Bot.git    
+3.set clone URI to https://github.com/CraneIjtmw/ChickenBot.git    
 4.適宜[NEXT]を押していく    
 5."Import as general project"をチェックして、"finish" を押す    
 credentialsをセットする    
